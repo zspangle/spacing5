@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+.parent {
+  height: 768px;
+  width: 1024px;
+  background-color: white;
+  display: flex;
+}
+.parent .redbox {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  position: relative;
+  center: 0px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+}
+.parent .bluebox {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: absolute;
+  left: 221px;
+  top: 0px;
+  display: flex;
+}
+.parent .yellowbox {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  position: absolute;
+  left: 221px;
+  top: 119px;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
